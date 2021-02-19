@@ -1,0 +1,21 @@
+// Normalize Styles
+// @import 'node_modules/normalize.css/normalize';
+
+@import "variables";
+@import "colours";
+@import "animation";
+@import "typography";
+@import "layout";
+@import "menu";
+@import "card";
+@import "media";
+
+// Box sizing partial styles:
+// Apply a natural box layout model to all elements
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
